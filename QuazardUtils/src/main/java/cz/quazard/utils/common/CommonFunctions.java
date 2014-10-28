@@ -43,4 +43,17 @@ public class CommonFunctions {
 			}
 		}
 	}
+	
+	/** 
+	 * Pokud je vstupni hodnota null nebo "", vrati true, v opacnem pripade false
+	 * @param value
+	 * @return
+	 */
+	public static boolean isEmpty(String value) {
+		if (value == null)
+			return true;
+		if (value.isEmpty())
+			return true;
+		return false;
+	}
 }
