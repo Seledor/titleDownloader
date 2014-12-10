@@ -34,7 +34,7 @@ public enum Sources {
 			if (sou.getValue().equalsIgnoreCase(source))
 				return sou;
 		}
-		log.warn("Sources: source(" + source + ") is not defined!");
+		log.trace("Sources: source(" + source + ") is not defined!");
 		return UNKNOWN;
 	}
 }

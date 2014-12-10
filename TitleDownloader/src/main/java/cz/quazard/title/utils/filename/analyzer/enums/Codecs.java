@@ -29,7 +29,7 @@ public enum Codecs {
 			if (cod.getValue().equalsIgnoreCase(codec))
 				return cod;
 		}
-		log.warn("Codecs: codec(" + codec + ") is not defined!");
+		log.trace("Codecs: codec(" + codec + ") is not defined!");
 		return UNKNOWN;
 	}
 

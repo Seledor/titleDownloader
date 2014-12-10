@@ -49,7 +49,7 @@ public enum Extensions {
 			if (ext.getValue().equalsIgnoreCase(extension))
 				return ext;
 		}
-		log.warn("Extensions: extension(" + extension + ") is not defined!");
+		log.trace("Extensions: extension(" + extension + ") is not defined!");
 		return UNKNOWN;
 	}
 

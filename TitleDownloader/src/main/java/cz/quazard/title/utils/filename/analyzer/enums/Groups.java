@@ -32,7 +32,7 @@ public enum Groups {
 			if (group.getValue().equalsIgnoreCase(name))
 				return group;
 		}
-		log.warn("Groups: group(" + name + ") is not defined!");
+		log.trace("Groups: group(" + name + ") is not defined!");
 		return UNKNOWN;
 	}
 

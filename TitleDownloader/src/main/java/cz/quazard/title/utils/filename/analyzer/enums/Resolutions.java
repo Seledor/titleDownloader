@@ -27,7 +27,7 @@ public enum Resolutions {
 			if (res.getValue().equalsIgnoreCase(resolution))
 				return res;
 		}
-		log.warn("Resolutions: resolution(" + resolution + ") is not defined!");
+		log.trace("Resolutions: resolution(" + resolution + ") is not defined!");
 		return UNKNOWN;
 	}
 }

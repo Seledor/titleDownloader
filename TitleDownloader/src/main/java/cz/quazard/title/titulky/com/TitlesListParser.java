@@ -1,4 +1,4 @@
-package cz.quazard.title.www.titulky.com;
+package cz.quazard.title.titulky.com;
 
 public class TitlesListParser { 
 
